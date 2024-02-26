@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csharp-console-webapiclient
+  title: csharp-console-webapiclient
+  description: A demo CSharp Web API Client application with deprecated .NET Core version. 
+  annotations:
+    github.com/project-slug: roadie-demo/csharp-console-webapiclient
+    backstage.io/techdocs-ref: dir:. 
+  tags:
+    - csharp  
+    
+spec:
+  type: service
+  owner: group:default/pov
+  lifecycle: production
